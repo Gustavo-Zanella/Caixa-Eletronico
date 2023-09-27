@@ -2,13 +2,13 @@ program CaixaEletronico;
 
 uses
   Vcl.Forms,
-  unFrmPrincipal in 'Forms\unFrmPrincipal.pas' {Form1};
+  unFrmPrincipal in 'Forms\unFrmPrincipal.pas' {FrmPrincipal};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
   Application.Run;
 end.
