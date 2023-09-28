@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/09/27 19:10:51.693,=C:\Users\gusta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/09/27 19:11:42.240,C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Forms\unFrmPrincipal.pas=C:\Users\gusta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/09/27 19:11:42.240,C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Forms\unFrmPrincipal.dfm=C:\Users\gusta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/09/27 19:11:55.952,C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\CaixaEletronico.dproj=C:\Users\gusta\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2023/09/27 19:10:51.000.693,=C:\Users\gusta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/27 19:11:42.000.240,C:\Users\gusta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Forms\unFrmPrincipal.dfm</Transaction>
+    <Transaction>2023/09/27 19:11:42.000.240,C:\Users\gusta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Forms\unFrmPrincipal.pas</Transaction>
+    <Transaction>2023/09/27 19:11:55.000.952,C:\Users\gusta\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\CaixaEletronico.dproj</Transaction>
+    <Transaction>2023/09/27 21:04:34.556,=C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Unit1.pas</Transaction>
+    <Transaction>2023/09/27 21:05:32.457,C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Forms\unFrmCadPessoa.pas=C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Unit1.pas</Transaction>
+    <Transaction>2023/09/27 21:05:32.457,C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Forms\unFrmCadPessoa.dfm=C:\Users\gusta\OneDrive\Área de Trabalho\Git\Caixa-Eletronico\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

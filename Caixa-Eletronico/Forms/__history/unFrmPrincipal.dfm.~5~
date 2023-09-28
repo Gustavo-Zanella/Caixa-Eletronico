@@ -1,6 +1,6 @@
 object FrmPrincipal: TFrmPrincipal
-  Left = 715
-  Top = 312
+  Left = 0
+  Top = 0
   Caption = 'Caixa-Eletronico'
   ClientHeight = 402
   ClientWidth = 403
@@ -10,7 +10,6 @@ object FrmPrincipal: TFrmPrincipal
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
-  Position = poDesigned
   TextHeight = 15
   object BtnDepositar: TBitBtn
     Left = 88

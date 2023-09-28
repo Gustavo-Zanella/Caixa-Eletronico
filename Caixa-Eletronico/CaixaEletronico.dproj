@@ -105,6 +105,10 @@
             <Form>FrmPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="Forms\unFrmCadPessoa.pas">
+            <Form>FrmCadPessoa</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

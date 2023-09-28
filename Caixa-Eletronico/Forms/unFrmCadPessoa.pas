@@ -1,0 +1,43 @@
+unit unFrmCadPessoa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TFrmCadPessoa = class(TForm)
+    EdtNome: TEdit;
+    EdtCodigo: TEdit;
+    EdtSenha: TEdit;
+    EdtConta: TEdit;
+    EdtAgencia: TEdit;
+    LblNome: TLabel;
+    LblCodigo: TLabel;
+    LblSenha: TLabel;
+    LblRepSenha: TLabel;
+    LblConta: TLabel;
+    LblAgencia: TLabel;
+    EdtRepSenha: TEdit;
+    BtnSalvar: TBitBtn;
+    procedure BtnSalvarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmCadPessoa: TFrmCadPessoa;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmCadPessoa.BtnSalvarClick(Sender: TObject);
+begin
+//
+end;
+
+end.

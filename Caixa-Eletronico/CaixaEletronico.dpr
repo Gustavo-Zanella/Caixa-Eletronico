@@ -2,7 +2,8 @@ program CaixaEletronico;
 
 uses
   Vcl.Forms,
-  unFrmPrincipal in 'Forms\unFrmPrincipal.pas' {FrmPrincipal};
+  unFrmPrincipal in 'Forms\unFrmPrincipal.pas' {FrmPrincipal},
+  unFrmCadPessoa in 'Forms\unFrmCadPessoa.pas' {FrmCadPessoa};
 
 {$R *.res}
 
