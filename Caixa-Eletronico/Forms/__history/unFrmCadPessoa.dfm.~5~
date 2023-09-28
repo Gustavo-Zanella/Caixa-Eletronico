@@ -102,5 +102,6 @@ object FrmCadPessoa: TFrmCadPessoa
     Height = 25
     Caption = 'Salvar'
     TabOrder = 6
+    OnClick = BtnSalvarClick
   end
 end

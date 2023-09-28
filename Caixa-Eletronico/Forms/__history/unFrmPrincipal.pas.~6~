@@ -4,9 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons,
-  {Programa}
-  unFrmCadPessoa, unFrmLogin;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
 
 type
   TFrmPrincipal = class(TForm)
@@ -16,11 +14,10 @@ type
     procedure BtnSacarClick(Sender: TObject);
     procedure BtnDepositarClick(Sender: TObject);
     procedure BtnExtratoClick(Sender: TObject);
-    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
-
+    { Public declarations }
   end;
 
 var
@@ -43,15 +40,6 @@ end;
 procedure TFrmPrincipal.BtnSacarClick(Sender: TObject);
 begin
 //
-end;
-
-procedure TFrmPrincipal.FormShow(Sender: TObject);
-begin
-  with TFrmLogin.Create(self) do
-  begin
-    ShowModal;
-    Release;
-  end;
 end;
 
 end.

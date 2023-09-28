@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons,
   {Programa}
-  unFrmCadPessoa, unFrmLogin;
+  unFrmCadPessoa;
 
 type
   TFrmPrincipal = class(TForm)
@@ -16,11 +16,12 @@ type
     procedure BtnSacarClick(Sender: TObject);
     procedure BtnDepositarClick(Sender: TObject);
     procedure BtnExtratoClick(Sender: TObject);
-    procedure FormShow(Sender: TObject);
   private
+    FoFrmCadPessoa: TFrmCadPessoa;
+    function getoFrmCadPessoa: TFrmCadPessoa;
     { Private declarations }
   public
-
+    Property oFrmCadPessoa : TFrmCadPessoa read getoFrmCadPessoa write FoFrmCadPessoa;
   end;
 
 var
@@ -45,13 +46,11 @@ begin
 //
 end;
 
-procedure TFrmPrincipal.FormShow(Sender: TObject);
+function TFrmPrincipal.getoFrmCadPessoa: TFrmCadPessoa;
 begin
-  with TFrmLogin.Create(self) do
-  begin
-    ShowModal;
-    Release;
-  end;
+  if not Assigned(FoFrmCadPessoa) then
+    FoFrmCadPessoa := TFrmCadPessoa.Create(self);
+  Result := FoFrmCadPessoa;
 end;
 
 end.

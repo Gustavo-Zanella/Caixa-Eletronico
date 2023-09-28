@@ -1,56 +1,50 @@
-object FrmCadPessoa: TFrmCadPessoa
-  Left = 0
-  Top = 0
-  Caption = 'Cadastro Pessoa'
-  ClientHeight = 237
-  ClientWidth = 382
+object FrmLogin: TFrmLogin
+  Left = 654
+  Top = 415
+  Caption = 'Login'
+  ClientHeight = 248
+  ClientWidth = 375
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -12
+  Font.Height = -16
   Font.Name = 'Segoe UI'
   Font.Style = []
-  TextHeight = 15
+  Position = poDesigned
+  TextHeight = 21
   object LblNome: TLabel
     Left = 128
     Top = 30
-    Width = 33
-    Height = 15
+    Width = 43
+    Height = 21
     Caption = 'Nome'
   end
   object LblCodigo: TLabel
     Left = 40
     Top = 32
-    Width = 39
-    Height = 15
+    Width = 50
+    Height = 21
     Caption = 'C'#243'digo'
   end
   object LblSenha: TLabel
     Left = 40
-    Top = 144
-    Width = 32
-    Height = 15
-    Caption = 'Senha'
-  end
-  object LblRepSenha: TLabel
-    Left = 200
-    Top = 139
-    Width = 32
-    Height = 15
+    Top = 141
+    Width = 43
+    Height = 21
     Caption = 'Senha'
   end
   object LblConta: TLabel
     Left = 40
     Top = 83
-    Width = 32
-    Height = 15
+    Width = 41
+    Height = 21
     Caption = 'Conta'
   end
   object LblAgencia: TLabel
     Left = 200
     Top = 83
-    Width = 43
-    Height = 15
+    Width = 55
+    Height = 21
     Caption = 'Ag'#234'ncia'
   end
   object EdtNome: TEdit
@@ -70,7 +64,7 @@ object FrmCadPessoa: TFrmCadPessoa
   object EdtSenha: TEdit
     Left = 40
     Top = 160
-    Width = 137
+    Width = 297
     Height = 23
     TabOrder = 2
   end
@@ -88,19 +82,12 @@ object FrmCadPessoa: TFrmCadPessoa
     Height = 23
     TabOrder = 4
   end
-  object EdtRepSenha: TEdit
-    Left = 200
-    Top = 160
-    Width = 137
-    Height = 23
-    TabOrder = 5
-  end
-  object BtnSalvar: TBitBtn
+  object BtnLogin: TBitBtn
     Left = 157
     Top = 204
     Width = 75
     Height = 25
-    Caption = 'Salvar'
-    TabOrder = 6
+    Caption = 'Login'
+    TabOrder = 5
   end
 end

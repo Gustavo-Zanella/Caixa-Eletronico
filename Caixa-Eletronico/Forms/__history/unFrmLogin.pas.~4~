@@ -1,13 +1,13 @@
-unit unFrmCadPessoa;
+unit unFrmLogin;
 
 interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons;
 
 type
-  TFrmCadPessoa = class(TForm)
+  TFrmLogin = class(TForm)
     EdtNome: TEdit;
     EdtCodigo: TEdit;
     EdtSenha: TEdit;
@@ -16,11 +16,9 @@ type
     LblNome: TLabel;
     LblCodigo: TLabel;
     LblSenha: TLabel;
-    LblRepSenha: TLabel;
     LblConta: TLabel;
     LblAgencia: TLabel;
-    EdtRepSenha: TEdit;
-    BtnSalvar: TBitBtn;
+    BtnLogin: TBitBtn;
   private
     { Private declarations }
   public
@@ -28,7 +26,7 @@ type
   end;
 
 var
-  FrmCadPessoa: TFrmCadPessoa;
+  FrmLogin: TFrmLogin;
 
 implementation
 

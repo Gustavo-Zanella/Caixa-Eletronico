@@ -21,6 +21,7 @@ type
     LblAgencia: TLabel;
     EdtRepSenha: TEdit;
     BtnSalvar: TBitBtn;
+    procedure BtnSalvarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,5 +34,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TFrmCadPessoa.BtnSalvarClick(Sender: TObject);
+begin
+unFrmCadPessoa//
+end;
 
 end.

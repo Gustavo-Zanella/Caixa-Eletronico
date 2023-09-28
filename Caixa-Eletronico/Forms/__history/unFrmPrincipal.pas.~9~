@@ -18,9 +18,12 @@ type
     procedure BtnExtratoClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
+    FoFrmCadPessoa: TFrmCadPessoa;
+    function getoFrmCadPessoa: TFrmCadPessoa;
     { Private declarations }
   public
-
+    Property oFrmCadPessoa : TFrmCadPessoa read getoFrmCadPessoa write FoFrmCadPessoa;
+    Property oFrmLogin     : TFrmCadPessoa read getoFrmCadPessoa write FoFrmCadPessoa;
   end;
 
 var
@@ -52,6 +55,14 @@ begin
     ShowModal;
     Release;
   end;
+//
+end;
+
+function TFrmPrincipal.getoFrmCadPessoa: TFrmCadPessoa;
+begin
+  if not Assigned(FoFrmCadPessoa) then
+    FoFrmCadPessoa := TFrmCadPessoa.Create(self);
+  Result := FoFrmCadPessoa;
 end;
 
 end.
